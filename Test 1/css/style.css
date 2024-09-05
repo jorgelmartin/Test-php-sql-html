@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.borderNavbar {
+    height: 2.5em;
+    width: 2.5em;
+    background-color: transparent;
+    color: white;
+}
+
+.bgNavbar{
+    background-color: blue;
+}
+
+.buttonsPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonCard {
+    width: 8.5em;
+    height: 2.7em;
+    margin-right: 2em;
+}
+
+.buttonCard:last-child {
+    margin-right: 0;
+}
+
+.bgFooter {
+    position: fixed;
+    bottom: 0;
+    height: 3.4em;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.552);
+}
